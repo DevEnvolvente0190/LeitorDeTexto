@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(209,238,174);
+  background: radial-gradient(circle, rgba(209,238,174,1) 0%, rgba(54,187,114,1) 100%);
+}
+.container{
+  background-color: #fff;
+  width: 500px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: rgba(0,0,0,0.4) 0px 3px 8px;
+}
+.container h1{
+  color: rgba(54,187,114,1);
+  margin-bottom: 20px;
+}
+.container textarea{
+  width: 100%;
+  height: 120px;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #000;
+  transition: border 0.5s;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  resize: none;
+}
+.container textarea:focus{
+  border: 2px solid rgba(54,187,114,1);
+}
+.container button{
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-color: rgba(209,238,174,1);
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+  transition: all 0.5s;
+}
+.container button:hover{
+  background-color: rgba(54,187,114,1);
+  color: #fff;
+}
